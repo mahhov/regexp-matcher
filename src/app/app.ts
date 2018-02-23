@@ -1,4 +1,5 @@
 import {Component} from "@angular/core";
+import * as _ from "underscore";
 import {DefaultContentProvider} from "./DefaultContentProvider";
 import {Generator} from "./Generator";
 
@@ -9,16 +10,21 @@ import {Generator} from "./Generator";
 })
 
 export class App {
-  fileContents: string;
-  test: string;
+  expression: string;
+  input: string;
+  output: string;
 
   constructor(private defaultContentProvider: DefaultContentProvider, private generator: Generator) {
-    this.fileContents = defaultContentProvider.betterNavBarDirective();
+    this.input = defaultContentProvider.betterNavBarDirective();
     this.update();
   }
 
   update(): void {
-    this.test = this.generator.generateTemplate(this.fileContents);
+    let outputs = this.generator.doExpression(this.expression, this.input);
+    if (outputs)
+      this.output = _.reduce(outputs, (aggregate, output) => {
+        return '{0}\n{1}'.formatUnicorn(aggregate, output);
+      });
   }
 
   copy(): void {
