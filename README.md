@@ -1,9 +1,6 @@
-# angularjs-jasmine-test-template-generator
+# regexp matcher
 
 ## about
-Generates template spec for jasmine testing angularjs.
-
-Supports controllers, services, and controllers.
 
 ## Demo
 https://angularjs-jasmine-template.herokuapp.com/
