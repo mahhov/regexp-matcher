@@ -84,7 +84,7 @@ var Generator = /** @class */ (function () {
 /***/ "./src/app/app.css":
 /***/ (function(module, exports) {
 
-module.exports = ".full-height {\n  height: 100vh;\n  padding: 20px;\n  padding-bottom: 80px;\n}\n\n.full-row {\n  margin-top: 20px;\n  height: 100%;\n}\n\ninput {\n  width: 100%;\n}\n\ntextarea {\n  width: 100%;\n  height: 100%;\n}\n\npre {\n  height: 100%;\n  background-color: whitesmoke;\n}\n\nbutton {\n  margin-top: 20px;\n}\n"
+module.exports = ".full-height {\n  height: 100vh;\n  padding: 20px;\n  padding-bottom: 140px;\n}\n\n.full-row {\n  margin-top: 20px;\n  height: 100%;\n}\n\ninput {\n  width: 100%;\n}\n\ntextarea {\n  width: 100%;\n  height: 100%;\n}\n\npre {\n  height: 100%;\n  background-color: whitesmoke;\n}\n\nbutton {\n  margin-top: 20px;\n}\n"
 
 /***/ }),
 
