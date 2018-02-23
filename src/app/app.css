@@ -1,0 +1,23 @@
+.full-height {
+  height: 100vh;
+  padding: 20px;
+  padding-bottom: 80px
+}
+
+.full-row {
+  height: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+}
+
+pre {
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+button {
+  margin-top: 20px;
+}
