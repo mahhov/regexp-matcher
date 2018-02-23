@@ -3,7 +3,7 @@
 ## about
 
 ## Demo
-https://angularjs-jasmine-template.herokuapp.com/
+https://regexp-matcher.herokuapp.com/
 
 ## screenshot
 
